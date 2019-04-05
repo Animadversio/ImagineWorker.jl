@@ -1,3 +1,5 @@
+# This file is machine-generated - editing it directly is not advised
+
 [[AbstractFFTs]]
 deps = ["Compat", "LinearAlgebra"]
 git-tree-sha1 = "8d59c3b1463b5e0ad05a3698167f85fac90e184d"
@@ -45,9 +47,9 @@ version = "0.9.5"
 
 [[Compat]]
 deps = ["Base64", "Dates", "DelimitedFiles", "Distributed", "InteractiveUtils", "LibGit2", "Libdl", "LinearAlgebra", "Markdown", "Mmap", "Pkg", "Printf", "REPL", "Random", "Serialization", "SharedArrays", "Sockets", "SparseArrays", "Statistics", "Test", "UUIDs", "Unicode"]
-git-tree-sha1 = "195a3ffcb8b0762684b6821de18f83a16455c6ea"
+git-tree-sha1 = "84aa74986c5b9b898b0d1acaf3258741ee64754f"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "2.0.0"
+version = "2.1.0"
 
 [[Conda]]
 deps = ["Compat", "JSON", "VersionParsing"]
@@ -76,7 +78,7 @@ deps = ["Mmap"]
 uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
 [[Distributed]]
-deps = ["LinearAlgebra", "Random", "Serialization", "Sockets"]
+deps = ["Random", "Serialization", "Sockets"]
 uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[FFTW]]
@@ -123,11 +125,9 @@ version = "0.6.1"
 
 [[ImagineFormat]]
 deps = ["AxisArrays", "FileIO", "FixedPointNumbers", "ImageMetadata", "Random", "SharedArrays", "Test", "Unitful"]
-git-tree-sha1 = "6ab1bca5cf1c9fac8eaaf5c7956e549823895611"
-repo-rev = "master"
-repo-url = "./ImagineFormat"
+git-tree-sha1 = "3c5ef10eadba82d82580c5f5e938406db8a96647"
 uuid = "4bab44a2-5ff2-5a6b-8e10-825fb9ac126a"
-version = "1.0.1+"
+version = "1.0.2"
 
 [[ImagineHardware]]
 deps = ["UnitAliases", "Unitful"]
@@ -137,9 +137,9 @@ version = "0.0.0"
 
 [[ImagineInterface]]
 deps = ["AxisArrays", "DSP", "DataStructures", "ImagineFormat", "ImagineHardware", "IntervalSets", "JSON", "MappedArrays", "Mmap", "Pkg", "Random", "Statistics", "UnitAliases", "Unitful"]
-git-tree-sha1 = "c1d1efe7a582e9d80eb11523f1234b378665cf62"
+path = "C:\\Users\\Neurobiology\\.julia\\dev\\ImagineInterface"
 uuid = "a9d8408c-0fb1-11e9-0067-cb067474114e"
-version = "0.0.0"
+version = "0.1.0"
 
 [[IndirectArrays]]
 deps = ["Compat", "Test"]
@@ -148,7 +148,7 @@ uuid = "9b13fd28-a010-5f03-acff-a1bbcff69959"
 version = "0.5.0"
 
 [[InteractiveUtils]]
-deps = ["LinearAlgebra", "Markdown"]
+deps = ["Markdown"]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 
 [[IntervalSets]]
@@ -208,12 +208,10 @@ version = "0.4.0"
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
 [[NIDAQ]]
-deps = ["Libdl", "LinearAlgebra"]
-git-tree-sha1 = "d9850a0ecdb3822a9a964f7b77b01f14e8baf9ba"
-repo-rev = "cjg/julia7"
-repo-url = "../NIDAQ"
+deps = ["LinearAlgebra", "Test"]
+git-tree-sha1 = "e7ab104f645af6a8d8bd1b917610c96467eb7bf4"
 uuid = "66b72792-1abf-55ab-8064-6e9051317175"
-version = "0.3.0"
+version = "0.4.0"
 
 [[NaNMath]]
 deps = ["Compat"]
@@ -329,7 +327,7 @@ uuid = "30578b45-9adc-5946-b283-645ec420af67"
 version = "0.4.0"
 
 [[UUIDs]]
-deps = ["Random"]
+deps = ["Random", "SHA"]
 uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 
 [[Unicode]]
@@ -343,9 +341,9 @@ version = "0.0.0"
 
 [[Unitful]]
 deps = ["LinearAlgebra", "Random", "Test"]
-git-tree-sha1 = "ba654182cad07cd6c1f3ae969475e556db3283ea"
+git-tree-sha1 = "94736a38908c6b43d22e1abffc4f72ab19dabbc1"
 uuid = "1986cc42-f94f-5a68-af5c-568840ba703d"
-version = "0.14.0"
+version = "0.15.0"
 
 [[VersionParsing]]
 deps = ["Compat"]
